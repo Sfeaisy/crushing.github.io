@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Confession</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link href="styles.css" type="text/css" rel="stylesheet">
+	</head>
+			<body>
+				<nav>
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#confession">Confession<a/></li>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#songs">Songs<a/></li>
+					</ul>
+				</nav>
+				
+	<section id="home">
+				<div class="question-container">
+				<p class="question-text">Do you love me?</p>
+					<div class="button-container">
+						<button class="choice-button yes" onclick="showLoveMessage()">Yes</button>
+						<button class="choice-button no" onmousemove="moveNoButton(event)">No</button>
+					</div>
+					<div id="loveMessage" class="love-message"></div>
+				</div>
+
+
+<!-- Your website content goes here -->
+
+<script src="Script.js"></script>
+
+<script>
+    function redirectToYesPage() {
+        // Add logic to redirect to the "Yes" page
+        window.location.href = "yes-page.html";
+    }
+
+    function redirectToNoPage() {
+        // Add logic to redirect to the "No" page
+        window.location.href = "no-page.html";
+    }
+</script>
+			</body>
+</html>
